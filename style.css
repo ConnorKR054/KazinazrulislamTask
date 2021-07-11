@@ -1,154 +1,166 @@
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-
-.container{
-    width: 900px !important;
-}
-
-.container-fluid{
-    height: 70vh;
-    background-color: #212529;
+nav
+{
     width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 
-.poet-name{
-    color: white;
+.container {
+  width: 100% !important;
+}
+.containermt-5 {
+  width: auto;
+  margin: 3rem auto auto auto;
 }
 
-.poet-small-desc{
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.award-details {
+  margin-right: 0.8125rem;
+  margin-bottom: 0.625rem;
+  border: 2px solid rgb(189, 188, 188);
+  border-radius: 4px;
+  width: 18.75rem;
+  padding: 7px;
 }
 
-.first-height-manage{
-    line-height: 50px;
+.awards-row {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
 }
 
-.container{
-    width: 70% !important;
+.award-name {
+  color: #262626;
 }
 
-.kazipoet{
-    width: 300px;
-    height: 400px;
+.year {
+  color: gray;
+  font-weight: 43.75rem;
 }
 
-.buttons{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 80px;
-    padding-top: 10px;
+.award-desc {
+  color: rgb(29, 29, 29);
+  line-height: 1.25rem;
+}
+.row {
+  width: auto;
+  height: auto;
 }
 
-.grey-btn{
-    background-color: #E0E1E2;
-    color: rgb(43, 43, 43);
-    border-radius: 0;
-    border-style: none;
+.poetsname {
+  color: white;
 }
 
-.red-btn{
-    background-color: #DB2828;
-    color: #E0E1E2;
-    border-radius: 0;
-    border-style: none;
+.poet-small-desc {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.yellow-btn{
-    background-color: #F2711C;
-    color: #E0E1E2;
-    border-radius: 0;
-    border-style: none;
+.first-height-manage {
+  line-height: 3.125rem;
 }
 
-.quote-bg{
-    background-color: #212529;
-    color: white;
-    height: 200px;
+.top {
+  height: 70vh;
+  background-color: #212529;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.kazipoet {
+  width: 18.75rem;
+  height: 25rem;
 }
 
-.awards-section{
-    padding-top: 50px;
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  padding-top: 0.625rem;
 }
 
-.horizontal-line{
-    overflow: hidden;
-    text-align: center;
+.grey-btn {
+  background-color: #e0e1e2;
+  color: rgb(43, 43, 43);
+  border-radius: 0;
+  border-style: none;
 }
-  
+
+.red-btn {
+  background-color: #db2828;
+  color: #e0e1e2;
+  border-radius: 0;
+  border-style: none;
+}
+
+.yellow-btn {
+  background-color: #f2711c;
+  color: #e0e1e2;
+  border-radius: 0;
+  border-style: none;
+}
+
+.quote-bg {
+  background-color: #212529;
+  color: white;
+  height: 12.5rem;
+}
+
+.awards-section {
+  padding-top: 3.125rem;
+}
+
+.horizontal-line {
+  overflow: hidden;
+  text-align: center;
+}
+
 .horizontal-line:before,
 .horizontal-line:after {
-background-color: rgb(179, 176, 176);
-content: "";
-display: inline-block;
-height: 1px;
-position: relative;
-vertical-align: middle;
-width: 50%;
+  background-color: rgb(179, 176, 176);
+  content: "";
+  display: inline-block;
+  height: 0.0625rem;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
 }
-  
+
 .horizontal-line:before {
-right: 1em;
-margin-left: -50%;
+  right: 1em;
+  margin-left: -50%;
 }
-  
+
 .horizontal-line:after {
-left: 1em;
-margin-right: -50%;
+  left: 1em;
+  margin-right: -50%;
+}
+.col {
+  padding-left: 10%;
 }
 
-.award-details{
-    border: 2px solid rgb(189, 188, 188);
-    border-radius: 4px;
-    width: 300px;
-    padding: 7px;
+.manage-line-height {
+  line-height: 1.1875rem;
 }
 
-.awards-row{
-    display: flex !important;
-    justify-content: center !important;
-    width: 100%;
+.custom-color {
+  color: rgb(54, 54, 54);
 }
 
-.award-name{
-    color: #262626;
+.footer {
+  background-color: #212529;
+  height: 10%;
+  color: white;
+  padding: 6.875rem;
 }
 
-.year{
-    color: gray;
-    font-weight: 700px;
-}
-
-.award-desc{
-    color: rgb(29, 29, 29);
-    line-height: 20px;
-}
-
-.manage-line-height{
-    line-height: 19px;
-}
-
-.custom-color{
-    color: rgb(54, 54, 54);
-}
-
-.footer{
-    background-color: #212529;
-    height: 10%;
-    color: white;
-    padding: 110px;
-}
-
-span{
-    color: rgb(141, 140, 140);
+span {
+  color: rgb(141, 140, 140);
 }
