@@ -10,6 +10,11 @@ p
   width: 30rem;;
 }
 
+span {
+  color: rgb(141, 140, 140);
+}
+
+
 .container {
   width: 100% !important;
 }
@@ -41,7 +46,13 @@ p
   color: gray;
   font-weight: 43.75rem;
 }
-
+.quote
+{
+  padding-top: 80px;
+    padding-left: auto;
+    padding-left: 350px;
+    padding-bottom: 80px;
+}
 .award-desc {
   color: rgb(29, 29, 29);
   line-height: 1.25rem;
@@ -163,8 +174,4 @@ p
   height: 10%;
   color: white;
   padding: 6.875rem;
-}
-
-span {
-  color: rgb(141, 140, 140);
 }
